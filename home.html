@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>			
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
+		<p>It's great to have you. Let's get started!</p>
+		<img id="rubberDuckImg"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoZBe-Po3hipE5fGICQsVitg2Idz8yq8EpA&usqp=CAU"/>
+        
+		<ul id ="compliment" hidden>
+			<li>You are a Star!</li>
+			<li>You are Amazing!</li>
+			<li>You look great today!</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+            <br>
+			Message:
+			<input type="textarea">
+            <br>
+			How did you hear about us:
+			<div class="source">
+				<input type="checkbox" id="source1" name ="source1" value = "googleCheckbox"/>
+				<label for = "source1">Google</label>
+				<br>
+				<input type="checkbox" id="source2" name ="source2" value = "aFriend"/>
+				<label for = "source2">A Friend</label>
+				<br>
+				<input type="checkbox" id="source3" name ="source3" value = "other"/>
+				<label for = "source3">Other</label>
+				<br>
+            	<br>
+				<input type="submit">
+		    </div>
+		</form>
+	</content>
+
+	<script src="about.js"></script>
+
+</body>
+</html>

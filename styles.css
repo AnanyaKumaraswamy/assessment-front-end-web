@@ -1,0 +1,109 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.source{
+	display: block;
+}
+#source1, #source2, #source3 {
+	display: inline-block;
+}
+
+
+
+#profilePic{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+	text-align: center;
+}
+
+.description{
+	margin-top: 0;
+	font-size: 14px;
+}
+
+h4{
+	margin: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	text-align: center;
+}
+
+.section1{
+	display: flex;
+	justify-content: space-between;
+}
+
+#skills, #interests, #careerGoals, .favorites, .message{
+	margin: 0px 15px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;	
+    background-color:rgba(255, 127, 80, 0.425);
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+#skills, #interests{	
+	width: 220px;
+	height: 100px;	
+}
+
+.favorites{	
+	padding: 10px;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+.button{	
+	background-color: yellow;	 
+	font-size: 15px;	
+}
+
+.message{
+	justify-content: right;
+	flex-direction: row;
+	padding: 10px;		
+}
